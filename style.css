@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;;
+}
+
+.circle{
+    padding-top:180px;
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    align-items: center;
+    margin-top:250px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 15px green; /*any color you want*/
+}
+
+.main-clock{
+    justify-content: space-between;
+    color:green;
+    align-items: center;
+    margin:auto;
+    box-sizing: border-box;
+    width:330px;
+    margin-left:75px;
+    display:flex;
+    font-size: 80px;
+}
+
+.main-date{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:auto;
+    width:220px;
+    display:flex;
+    color:white;
+    margin-top:10px;
+}
